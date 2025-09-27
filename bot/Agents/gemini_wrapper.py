@@ -18,7 +18,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # Using the model you specified
-model = genai.GenerativeModel(model_name="models/gemini-1.5-flash") # Updated to 1.5-flash as it's the latest flash model.
+model = genai.GenerativeModel(model_name="models/gemini-2.0-flash") # Updated to 1.5-flash as it's the latest flash model.
 
 
 # --- NEW Generic Gemini Function ---
